@@ -22,7 +22,27 @@
             font-style: normal;
             box-sizing: border-box;
         }
-        header {
+        header { 
+            height: 200vh;
+            background-color: #fff;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            background-image: url(../image/clouds.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            -ms-user-select: none;
+            -moz-user-select: -moz-none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            user-select:none;
+        }
+        section {
+            z-index: 2;
+            height: 200vh;
+            background-color: #fff;
+        }
+        .who{
             border-bottom: 3px solid rgb(82, 82, 82);
             padding: 0.1px;
             text-align: center;
@@ -30,11 +50,6 @@
             font-weight: bold;
             color: aliceblue;
             text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000
-        }
-        section {
-            z-index: 2;
-            height: 200vh;
-            background-color: #fff;
         }
         .about{
             height: 100vh;
@@ -58,15 +73,17 @@
 </head>
 <body>
     <header>
-        <p>오민건의 Portfolio</p>
     </header>
     <section>
+        <div class="who">
+            <p>오민건의 Portfolio</p>
+        </div>
         <article class="about">
             <div class="introduce">
                 <p>
                     반갑다<br>
                     나는 오민건<br>
-                    컴퓨터 프로그래머가 꿈인가?<br>
+                    컴퓨터 프로그래머가 꿈인가?asd<br>
                     잘 부탁한다<br>
                     </p>
             </div>    
