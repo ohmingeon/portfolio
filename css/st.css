@@ -65,7 +65,8 @@
         }
         .info{
             border-color: darkgrey;
-            border-style: none;
+            margin-top: 4vh;
+            margin-left: 10vh;
             padding-top: 2vh;
             padding-bottom: 2vh;
             padding-left: 3vh;
