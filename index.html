@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" type="image/x-icon" href="image/2.ico">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <style>
         *{
             margin: 0;
@@ -28,7 +29,7 @@
             text-align: center;
             overflow: hidden;
             position: relative;
-            background-image: url(../image/clouds.jpg);
+            background-image: url(image/earth.png);
             background-repeat: no-repeat;
             background-attachment: fixed;
             -ms-user-select: none;
@@ -36,6 +37,18 @@
             -webkit-user-select: none;
             -khtml-user-select: none;
             user-select:none;
+        }
+        .introback{
+            background-color: rgba(255,255,255,.5);
+            position: absolute;
+        }
+        .headsome{
+            height: 0;
+            z-index: 1;
+            padding-top: 40vh;
+            font-size: 4vh;
+            position: absolute;
+            position: fixed;
         }
         section {
             z-index: 2;
@@ -60,6 +73,14 @@
             font-size: 1.7vh;
             line-height: 180%;
         }
+        @keyframes fadein {
+            0%{
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
         .subject{
 
         }
@@ -73,6 +94,10 @@
 </head>
 <body>
     <header>
+        <div class="introback" style="opacity: 1;"></div>
+        <h1 clas="headsome" style="opacity: 1;", id="intro1">
+        hola!
+        </h1>
     </header>
     <section>
         <div class="who">
