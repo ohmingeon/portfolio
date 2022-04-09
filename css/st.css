@@ -61,6 +61,16 @@
             margin-left: 15vh;
             font-size: 1.7vh;
             line-height: 180%;
+            border-bottom: 2vh solid rgb(0, 0, 0);
+        }
+        .info{
+            border-bottom: 2vh solid black;
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            padding-left: 5vh;
+            padding-right: 5vh;
+            line-height: 160%;
+            font-size: 2vh;
         }
         @keyframes fadein {
             0%{
