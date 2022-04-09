@@ -9,93 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" type="image/x-icon" href="image/2.ico">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            vertical-align: baseline;
-            -webkit-text-size-adjust: none;
-            font-style: normal;
-            box-sizing: border-box;
-        }
-        header { 
-            height: 200vh;
-            background-color: #fff;
-            text-align: center;
-            overflow: hidden;
-            position: relative;
-            background-image: url(image/clouds.jpg);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            -ms-user-select: none;
-            -moz-user-select: none;
-            -webkit-user-select: none;
-            -khtml-user-select: none;
-            user-select:none;
-        }
-        .introback{
-            background-color: rgba(255,255,255,.5);
-            position: absolute;
-        }
-        .headsome{
-            height: 0;
-            z-index: 1;
-            padding-top: 40vh;
-            font-size: 4vh;
-            position: absolute;
-            position: fixed;
-        }
-        section {
-            z-index: 2;
-            height: 200vh;
-            background-color: #fff;
-        }
-        .who{
-            border-bottom: 3px solid rgb(82, 82, 82);
-            padding: 0.1px;
-            text-align: center;
-            font-size: 3vh;
-            font-weight: bold;
-            color: aliceblue;
-            text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000
-        }
-        .about{
-            height: 100vh;
-        }
-        .introduce{
-            margin-top: 3vh;
-            margin-left: 15vh;
-            font-size: 1.7vh;
-            line-height: 180%;
-        }
-        @keyframes fadein {
-            0%{
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-        .subject{
-
-        }
-        .code{
-
-        }
-        .info{
-            
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="//code.jquery.com/jquery-3.6.0.min.js""></script>
+    <link href="css/st.css?after" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <header>
-        <div class="introback" style="opacity: 1;"></div>
-        <h1 clas="headsome" style="opacity: 1;", id="intro1">
+        <div class="introback" style="opacity: 1;">
+        </div>
+        <h1 class="headsome" style="opacity: 1;" id="intro1">
         hola!
         </h1>
     </header>
