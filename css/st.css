@@ -72,10 +72,10 @@
             margin-right: 10vh;
             padding-top: 3vh;
             padding-bottom: 3vh;
-            padding-left: 30vh;
-            padding-right: 30vh;
+            padding-left: 50vh;
+            padding-right: 50vh;
             line-height: 160%;
-            font-size: 1.7vh;
+            font-size: 2vh;
         }
         @keyframes fadein {
             0%{
