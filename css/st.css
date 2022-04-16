@@ -87,7 +87,8 @@
             padding-right: 10vh;
             line-height: 160%;
             font-size: 1.6vh;
-            color: #aaa;
+            color: rgb(105, 105, 105);
+            text-align: center;
         }
         @keyframes fadein {
             0%{
