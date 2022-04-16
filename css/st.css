@@ -67,12 +67,12 @@
         .info{
             border: 1px solid lightgray;
             margin-top: 4vh;
-            margin-left: 10vh;
-            margin-right: 10vh;
+            margin-left: 20vh;
+            margin-right: 20vh;
             padding-top: 2vh;
             padding-bottom: 2vh;
-            padding-left: 10vh;
-            padding-right: 10vh;
+            padding-left: 20vh;
+            padding-right: 20vh;
             line-height: 160%;
             font-size: 1vh;
         }
