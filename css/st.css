@@ -66,15 +66,16 @@
         }
         .info{
             border: 1px solid lightgray;
-            margin-top: 4vh;
-            margin-left: 20vh;
-            margin-right: 20vh;
-            padding-top: 2vh;
-            padding-bottom: 2vh;
-            padding-left: 20vh;
-            padding-right: 20vh;
+            margin-top: 5vh;
+            margin-bottom: 5vh;
+            margin-left: 10vh;
+            margin-right: 10vh;
+            padding-top: 3vh;
+            padding-bottom: 3vh;
+            padding-left: 30vh;
+            padding-right: 30vh;
             line-height: 160%;
-            font-size: 1vh;
+            font-size: 1.7vh;
         }
         @keyframes fadein {
             0%{
