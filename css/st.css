@@ -54,12 +54,12 @@
             text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000
         }
         .introduce{
-            margin-top: 3vh;
+            margin-top: 60px;
             text-align: center;
-            font-size: 1.7vh;
+            font-size: 18px;
             line-height: 180%;
             border-style: none;
-            margin-bottom: 5vh;
+            margin-bottom: 60px;
             line-height: 180%;
         }
         .info{
