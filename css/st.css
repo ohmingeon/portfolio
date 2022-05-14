@@ -63,17 +63,15 @@
             line-height: 180%;
         }
         .info{
-            border: 19px solid lightgray;
-            margin-top: 96px;
-            margin-bottom: 96px;
-            margin-left: 960px;
-            margin-right: 960px;
-            padding-top: 57px;
-            padding-bottom: 57px;
-            padding-left: 192px;
-            padding-right: 192px;
+            border: 2px solid lightgray;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            padding-left: 170px;
+            padding-right: 170px;
             line-height: 160%;
-            font-size: 38px;
+            font-size: 15px;
         }
         .infomail{
             border: 1px none lightgray;
