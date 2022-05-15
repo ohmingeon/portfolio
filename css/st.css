@@ -66,9 +66,12 @@
             border: 2px solid lightgray;
             margin-top: 10px;
             margin-bottom: 30px;
-            max-width: 1300px;
+            margin-right: 10px;
+            margin-left: 10px;
             padding-top: 80px;
             padding-bottom: 80px;
+            padding-left: 400px;
+            padding-right: 400px;
             line-height: 160%;
             font-size: 20px;
         }
