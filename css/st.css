@@ -53,6 +53,7 @@
             color: aliceblue;
             text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
             position: sticky;
+            background-color: #fff;
         }
         .introduce{
             margin-top: 60px;
