@@ -51,7 +51,10 @@
             font-size: 3vh;
             font-weight: bold;
             color: aliceblue;
-            text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000
+            text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+            list-style-type: none;
+            overflow: hidden;
+            position: sticky;
         }
         .introduce{
             margin-top: 60px;
